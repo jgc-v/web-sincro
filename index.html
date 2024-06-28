@@ -3,16 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!--Fuentes-->
+
+     <!--Iconos-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <!--Iconos-->
+
+    <link rel="stylesheet" href="css/estilos.css">
+   
+    <title>Ejercicios CSS</title>
 </head>
 <body>
-    <h1>Encabezado</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias mollitia autem, ipsa qui architecto minima, tempora sit possimus modi voluptate officiis iste voluptatum fugit explicabo quae repudiandae quo aliquid et...</p>
-    <div>
-        <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Servicios</a></li>
-        </ul>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+       
+    <div class="separador"></div> 
+    
+    <div class="contenedor montserrat-alternates-regular sacramento-regular cherry-swash-regular indie-flower-regular">
+        <div class="foto1">
+            <h1>Título 1</h1>
+            <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo, iusto mollitia eaque magnam, molestiae molestias quae placeat fuga excepturi corporis commodi optio quasi aliquam, quisquam dolor voluptates beatae dolorum!</p>
+            <h2>Comentario 1</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis quo veniam libero iste suscipit repudiandae.</h3>
+            </div>
+        </div>
+        <div class="iconos">
+            <span class="material-symbols-outlined icono1">
+                bolt
+            </span>
+            <span class="material-symbols-outlined icono2">
+                    keyboard_command_key
+            </span>
+                <span class="material-symbols-outlined icono3">
+                    empty_dashboard
+            </span>
+        </div>
+        <div class="botoncontacto">
+            <button class="botonenlace"><a href="#formulario">Contáctanos</a></button>
+        </div>
+        <div class="foto2">
+            <h1>Título 2</h1>
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum quae nesciunt vero maxime quis beatae, consequatur odit cumque doloribus nulla, natus tempore dicta cum eius dolorem asperiores sequi laborum?</p>
+            <h2>Comentario 2</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis quo veniam libero iste suscipit repudiandae.</h3>
+            </div>
+        </div>
+        <div class="foto3">
+            <h1>Título 3</h1>
+            <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum quae nesciunt vero maxime quis beatae, consequatur odit cumque doloribus nulla, natus tempore dicta cum eius dolorem asperiores sequi laborum?</p>
+            <h2>Comentario 3</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis quo veniam libero iste suscipit repudiandae.</h3>
+            </div>
+        </div>
+        <div>
+            <div>
+            <form action="#" id="formulario">
+                <input type="text" placeholder="Nombre">
+                <input type="number" name="" id="" placeholder="Teléfono">
+                <input type="text" name="" id="" placeholder="Correo electrónico">
+                <br>
+                <textarea name="" id="" placeholder="Mensaje" cols="63" rows="5"></textarea>
+                <br>
+                <button class="botonform" type="submit">Enviar</button>
+            </form>
+            </div>
+        </div>
     </div>
+    
+    <footer class="pacifico-regular footerbg">
+        <div class="textofooter">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        </div>
+        <div class="redes">
+            <a href=""><img src="img/Instagram 22.png" alt="Instagram"></a>
+            <a href=""><img src="img/Linkedin2.png" alt="Linkedin"></a>
+            <a href=""><img src="img/TikTok2.png" alt="TikTok"></a>
+        </div>
+    </footer>
 </body>
 </html>

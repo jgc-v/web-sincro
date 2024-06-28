@@ -1,0 +1,168 @@
+/*Nav*/
+ul a{text-decoration: none;
+        color: black;}
+ul{list-style: none;}
+li{float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-right: 2.5px solid #5f0e8f;
+    border-radius: 10px;
+    background-color: #4b9dca;
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.32); 
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.32); 
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.32);}
+/*Nav*/
+
+div.separador{clear: both;}
+
+div.contenedor{margin: 0px 50px;
+                background-color: #c8b69f;font-size: 17px;
+                width: 765px;}
+
+
+/*Fuentes*/
+footer.pacifico-regular p{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+div.sacramento-regular div h1{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+div.cherry-swash-regular div p {
+    font-family: "Cherry Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+  }
+  
+.cherry-swash-bold {
+    font-family: "Cherry Swash", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+div.indie-flower-regular div h3 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.montserrat-alternates-light{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+div.montserrat-alternates-regular div h2{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*Fuentes*/  
+
+/*Colores y bg*/
+h1{background: #ac2e2e;
+    width: 750px;}
+  
+footer p{color: white;
+        padding-top: 10px;
+        padding-left: 20px;}
+
+span.buscador,.home,.menu{color:#d32a2a;
+                font-size: 2em;}
+
+.icono1{color: #4b9dca;}
+.icono2{color: #5f0e8f;}
+.icono3{color: #58900f;}
+/*Colores y bg*/
+
+/*Imagenes fondo*/
+.footerbg{background-image: url(https://marmoltope.cl/wp-content/uploads/2018/02/footer-background-img.jpg);
+          width: 1340px;
+          height: 135px;}
+
+.foto1 {background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220718/pngtree-gradient-grey-background-abstract-image_1418857.jpg);
+        width: 650px;
+        height: 396px;
+        background-size:cover;
+        background-repeat: no-repeat;}
+
+.foto2 {background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMDEtdGQtMDA4XzQuanBn.jpg);
+        width: 650px;
+        height: 373px;
+        background-repeat: no-repeat;}
+
+.foto3 {background-image: url(https://wallpapers.com/images/featured/plain-grey-background-ydlwqztavi78gl24.jpg);
+        width: 650px;
+        height: 373px;
+        background-repeat: no-repeat;}
+
+.redes{margin-left: 1100px;
+        margin-bottom: 10px;}
+            
+img{width: 50px;
+        height: 50px;
+        margin: 5px;
+        padding: 2px;
+        justify-content: flex-end;
+        align-items: flex-end;}
+
+.iconos{margin:10px}
+.icono1,.icono2,.icono3{font-size: 4em;
+                        margin-left: 86px;
+                        padding: 8px;}
+/*Imagenes fondo*/
+
+/*Margenes, bordes y relleno*/
+h1{margin: 1px;
+    border: 3px solid #692e2e;
+    border-radius: 8px;
+    padding: 12px 2px 3px 10px;
+    text-indent: 250px}
+
+div.contenedor div div{border: 1px solid black;
+                      border-radius: 7px;
+                      padding-bottom: 62px;}
+
+div.contenedor div div form{border: 0px solid black;
+                            padding: 25px 0px;
+                            height: 110px;
+                            margin-top: 40px;}
+
+                          
+input, textarea, .botonform{margin: 3px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.44); 
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.44); 
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.44);}
+
+.textofooter{display: flex;
+  justify-content: flex-start;}
+/*Margenes, bordes y relleno*/
+
+/*Botón formulario*/
+.botoncontacto{margin:40px 255px;}
+button.botonenlace{background-color: black;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 25px 10px;
+  cursor: pointer;}
+
+button.botonenlace:hover{background-color: #2a2222;}
+div.botoncontacto a{text-decoration: none;
+                    color: white;}
+div.botoncontacto a:hover{color: #40a8b0;}
+/*Botón formulario*/
